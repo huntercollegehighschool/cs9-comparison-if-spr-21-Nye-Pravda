@@ -18,5 +18,20 @@ Enter a number:  5
 positive
 not divisible by 3
 '''
-
+intg = int(input("Enter an integer: "))
 #write your code below
+if intg == 0:
+  print("Zero")
+  print("Divisible By 3")
+if intg > 0:
+  print("Positive")
+  if (intg % 3 == int):
+    print("Divisible By 3")
+  else:
+    print("Not Divisible By 3")
+if intg < 0:
+  print("Negative")
+  if (intg % 3 == 0):
+    print("Divisible By 3")
+  else:
+    print("Not Divisible By 3")
